@@ -1,18 +1,45 @@
-# Web Service Testing Samples
+# Reqres API Automation Testing
 
-See https://docs.katalon.com/katalon-studio/docs/web-service-samples.html.
+This project automates API testing for Reqres API using Katalon Studio. It includes GET, PUT, and POST requests to the following endpoints:
 
-## Companion products
+- **GET list users** (`/api/users?page=1`)
+- **GET single user** (`/api/users/{id}`)
+- **PUT update user** (`/api/users/{id}`)
+- **POST register successful** (`/api/register`)
+## Prerequisites
 
-### Katalon TestOps
+Ensure that you have the following tools installed:
 
-[Katalon TestOps](https://analytics.katalon.com) is a web-based application that provides dynamic perspectives and an insightful look at your automation testing data. You can leverage your automation testing data by transforming and visualizing your data; analyzing test results; seamlessly integrating with such tools as Katalon Studio and Jira; maximizing the testing capacity with remote execution.
+- **Java 8 or higher**  [Download Java](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html)
+- **Katalon Studio** [Download Katalon Studio](https://www.katalon.com/)
 
-* Read our [documentation](https://docs.katalon.com/katalon-analytics/docs/overview.html).
-* Ask a question on [Forum](https://forum.katalon.com/categories/katalon-analytics).
-* Request a new feature on [GitHub](CONTRIBUTING.md).
-* Vote for [Popular Feature Requests](https://github.com/katalon-analytics/katalon-analytics/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc).
-* File a bug in [GitHub Issues](https://github.com/katalon-analytics/katalon-analytics/issues).
+## Documentation
+- [Test Case Sauce Demo](https://docs.google.com/spreadsheets/d/1_11AIvutneg0xiFW1qPUz-u6vBVfPpnFZD0aQKUG9XI/edit?usp=sharing)
+## Resources
+- **ReqresIn:** [Visit Website](https://reqres.in/)
+## Installation & Setup
 
-### Katalon Studio
-[Katalon Studio](https://www.katalon.com) is a free and complete automation testing solution for Web, Mobile, and API testing with modern methodologies (Data-Driven Testing, TDD/BDD, Page Object Model, etc.) as well as advanced integration (JIRA, qTest, Slack, CI, Katalon TestOps, etc.). Learn more about [Katalon Studio features](https://www.katalon.com/features/).
+1. Clone this repository:
+   ```sh
+   git clone https://github.com/herbetsimanjuntaak/katalon-reqres-api-automation.git
+   ```
+2. Open Katalon Studio and import the project.
+
+## Running the Tests
+### 1. Open Katalon Studio
+
+- Open Katalon Studio and load the project.
+
+### 2. Run Test Cases
+
+- Open the **Test Suite** `web-service-tests - All Test Cases` and click **Run** to execute all test cases.
+
+### 3. Check Results
+
+- After the test run completes, navigate to the `Reports` folder to view the test results.
+
+
+## 📝 Reports
+![Screenshot 2025-01-17 020010](https://github.com/user-attachments/assets/8e546fe5-33fa-4c7c-9bc1-cce925e00ebc)
+![image](https://github.com/user-attachments/assets/2f449fc7-399e-481f-b98c-b5529e2e41e5)
+![image](https://github.com/user-attachments/assets/ad2feed2-1247-4c5b-b954-9e6db9ab6910)
