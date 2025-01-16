@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetListUsersInvalidPage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a7f4738-7e43-4606-adbd-f5294c6e32c4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da546d53-8382-449a-8315-d582d392285a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1000\r\n'</defaultValue>
+      <description></description>
+      <id>da546d53-8382-449a-8315-d582d392285a</id>
+      <masked>false</masked>
+      <name>invalidPageParam</name>
+   </variable>
+</TestCaseEntity>

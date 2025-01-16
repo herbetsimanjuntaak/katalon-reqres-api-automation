@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PostRegisterEmptyEmail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04f201ee-9c99-4ca8-88c7-58d2d71cb4a3</testCaseGuid>
+</TestCaseEntity>

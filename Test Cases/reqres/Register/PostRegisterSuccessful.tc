@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PostRegisterSuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41cbd219-2790-468a-bec3-73841be3fcab</testCaseGuid>
+</TestCaseEntity>

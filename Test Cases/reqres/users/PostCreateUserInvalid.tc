@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PostCreateUserInvalid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8378575f-19f3-4c96-a0a0-bacdc7b1ed5c</testCaseGuid>
+</TestCaseEntity>
